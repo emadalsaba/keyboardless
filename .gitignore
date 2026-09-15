@@ -1,0 +1,26 @@
+# بيئة بايثون
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# مخرجات البناء والتثبيت
+build/
+dist/
+*.spec.bak
+
+# النماذج والأصوات (تُنزَّل ولا تُرفع)
+models/
+samples/*.wav
+samples/*.mp3
+
+# مخرجات التشغيل واللقطات المؤقتة
+*.log
+app/*.png
+app/tests/*.txt
+cli-last.txt
+dictate.log
+
+# إعدادات المستخدم المحلية
+app/config.local.json
+
