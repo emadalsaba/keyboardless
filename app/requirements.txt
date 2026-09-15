@@ -1,0 +1,7 @@
+# ar-dictate runtime dependencies (Windows, Python 3.11–3.14)
+vosk==0.3.45          # offline streaming ASR (Apache-2.0), CPU only, no internet at runtime
+sounddevice==0.4.7    # microphone capture through PortAudio
+keyboard==0.13.5      # global hotkeys -- fallback backend (needs Administrator for the hook)
+pynput==1.7.7         # global hotkeys -- preferred backend, works unelevated
+numpy>=1.26           # required by sounddevice/vosk
+PySide6-Essentials>=6.7  # settings window + system tray icon (LGPL, ships Qt Widgets only)

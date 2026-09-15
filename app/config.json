@@ -1,0 +1,30 @@
+{
+  "model": "../models/vosk-model-small-ar-0.3",
+  "models": {
+    "fast": "../models/vosk-model-small-ar-0.3",
+    "accurate": "../models/vosk-model-ar-mgb2-0.4"
+  },
+  "sample_rate": 16000,
+  "chunk_ms": 100,
+  "device": null,
+  "mode": "msa",
+  "injector": "sendinput",
+  "restore_clipboard": true,
+  "hotkey": [
+    "ctrl+alt+d",
+    "ctrl+alt+j"
+  ],
+  "mode_key": "ctrl+alt+m",
+  "quit_key": "ctrl+alt+q",
+  "punctuation": true,
+  "auto_period": true,
+  "auto_sep": "،",
+  "space_before": true,
+  "auto_stop_seconds": 0,
+  "agc": true,
+  "agc_target": 0.3,
+  "verbose": false,
+  "log": "dictate.log",
+  "pause_seconds": 0.0,
+  "pause_sep": "\\n"
+}
